@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav-li {
+      @apply cursor-pointer float-left m-2 hover:bg-[#23272f4d] p-3.5;
+    }
+  }
+
+:root {
+    background-color: #23272f;
+}
